@@ -26,7 +26,7 @@ In many regions, individuals lack access to personalized, intelligent financial 
 ---
 ## DEMO VIDEO LINK
 ```
-https://drive.google.com/file/d/1jQuokwXIClk4wum_tXNeerEf7VAnUbk0/view?t=29
+https://drive.google.com/file/d/1jQuokwXIClk4wum_tXNeerEf7VAnUbk0/view?usp=sharing
 ```
 
 ## 📁 Project Structure
