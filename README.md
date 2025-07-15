@@ -68,9 +68,9 @@ finance_advisor_backend/
 ├── .env # Environment variables
 ├── README.md
 ```
-##Required packages:
+## Required packages:
 
-fastapi
+```fastapi
 
 uvicorn
 
@@ -85,6 +85,7 @@ passlib[bcrypt]
 requests
 
 python-dotenv
+```
 
 
 # 1. Create and activate virtual environment
