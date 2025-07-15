@@ -66,7 +66,7 @@ In many regions, individuals lack access to personalized, intelligent financial 
 ├── database.sqlite # SQLite for local DB
 ├── .env # Environment variables
 ├── README.md
-
+```
 ##Required packages:
 
 fastapi
@@ -87,25 +87,32 @@ python-dotenv
 
 
 # 1. Create and activate virtual environment
+```
 python -m venv venv
 source venv/bin/activate      # Linux / macOS
 venv\Scripts\activate         # Windows
+```
 
 # 2. Install dependencies
+```
 pip install -r requirements.txt
+```
 
 # 3. Initialize DB and seed sample data
+```
 python init_db.py
 python seed_data.py
-
+```
 # 4. Run backend server
+```
 uvicorn app.main:app --reload
-
+```
 ## Ollama Installation
+```
 curl -fsSL https://ollama.com/install.sh | sh
 ollama pull mistral
 ollama serve
-
+```
 ## Example Prompt
 User Credit Details:
 Score: 720
@@ -117,11 +124,13 @@ Account Mix: credit_card, loan
 Based on this, give personalized financial advice in 3 bullet points.
 
 ## 🐳 Docker Deployment
+```
 docker build -t finance-backend .
-
+```
 ## Run the Container
+```
 docker run -d -p 8000:8000 finance-backend
-
+```
 ## 🧪 API Reference (Swagger Docs)
 | Endpoint          | Method | Description                          |
 | ----------------- | ------ | ------------------------------------ |
@@ -154,7 +163,7 @@ Install with:
 
 ```bash
 pip install -r requirements.txt
-
+```
 
 
 ## Thank You
