@@ -27,7 +27,8 @@ In many regions, individuals lack access to personalized, intelligent financial 
 
 ## 📁 Project Structure
 
-```finance_advisor_backend/
+```
+finance_advisor_backend/
 │
 ├── app/
 │ ├── main.py # FastAPI app entry
